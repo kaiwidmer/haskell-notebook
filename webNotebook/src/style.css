@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
+
+p,h1,h2,h3,h4 {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color:beige;
+}
+
+.CodeMirror {
+    height: auto;
+    width: 100%;
+}
+
+.notebook {
+    padding: 0 30% 0 30%;
+}
+
+.code-block {
+    display: flex;
+    align-items: flex-start;
+}
+
+.code-block img {
+    cursor: pointer;
+}
